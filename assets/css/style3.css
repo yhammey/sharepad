@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+code, kbd,pre,.img-rounded,.img-thumbnail,.img-circle,
+.form-control,.btn,.btn-link,.dropdown-menu,.list-group-item,
+.input-group-addon,.input-group-btn,
+.nav-tabs a,.nav-pills a,.navbar,.navbar-toggle,
+.icon-bar,.breadcrumb,.pagination,.pager *,
+.label,.badge,.jumbotron,.thumbnail,.alert,.progress,
+.panel,.well,.modal-content,.tooltip-inner,.popover,
+.popover-title,.carousel-indicators li {
+    border-radius:0 !important;
+}
+
+.contact-page {
+    width: 100%;
+    min-height: 768px;
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-page-bgcolor {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 58, 64, 0.9);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 14px;
+    color: #ffffff;
+    padding-right: 0px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    margin-right: 75px;
+}
+
+.left-container {
+    width: 60%;
+    height: 80vh;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    float: left;
+    content: "";
+}
+
+.left-container-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 100px;
+}
+
+
+.contact-list li {
+    margin: auto;
+    clear: both;
+    float: none;
+}
+
+img[alt*="contact"] {
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.right-container {
+    width: 60%;
+    height: 100vh;
+/*    background-color: pink;*/
+    float: right;
+    content: "";
+}
+
+/*.maps {
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 800px;
+    height: 450px;
+}*/
+
+
+.contact-container {
+   /* width: 60%;
+    height: 62vh;*/
+    margin: auto;
+    margin-top: 90px;
+/*    border: 8px solid white;
+    background-color: rgba(52, 58, 64, 0.8);*/
+    text-align: left;
+}
+
+
+.form-group {
+    width: 500px;
+    margin: auto;
+    color: white;
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 0px;
+}
+
+#submitbtn {
+    background-color: transparent;
+    border: 5px solid #ca9d81;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-page {
+    background-color: rgb(52, 58, 64);
+    width: 100%;
+    min-height: 80px;
+}
+
+.footer-tab {
+    margin-top: 30px;
+}
+
+.footer-tab > ul {
+    margin-left: 80px;
+}
+
+a:link {
+    color: #ca9d81;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #ca9d81;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+li {
+    float: left;
+    margin-left: 20px;
+    display: block;
+    content: "";
+    font-size: 14px;
+}
+
+img[alt*="socmed"] {
+    width: 30px;
+    height: 24px;
+    display: block;
+    float: left;
+    margin-right: 45px;
+}
+
+.socmed-box {
+    display: inline-block;
+    float: right;
+    margin-right: 80px;
+}
+
+.copyright {
+    background-color: rgb(43, 48, 53);
+    min-height: 45px;
+    width: 100%;
+    color: white;
+}
+
+.myname {
+    position: relative;
+    top: 10px;
+    left: 130px;
+    font-size: 10px;
+}
+
+iframe {
+    display: none;
+}
+
+/*img[alt*="arrow"] {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ca9d81;
+    border-radius: 100%;
+    padding: 3px;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}*/
+
+
+
+
+/*@media (min-width: 320px) and (max-width: 480px) { {
+    .contact-page {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-page-bgcolor {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 58, 64, 0.9);
+}
+
+.left-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    float: left;
+    content: "";
+}
+
+.left-container-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 100px;
+}
+
+.right-container {
+    width: 100%;
+    height: 100vh;
+/*    background-color: pink;*/
+   /* float: right;
+    content: "";
+}
+
+.contact-container {*/
+   /* width: 60%;
+    height: 62vh;*/
+    /*margin: auto;
+    margin-top: 90px;*/
+/*    border: 8px solid white;
+    background-color: rgba(52, 58, 64, 0.8);*/
+/*    text-align: left;
+}
+*/
+/*
+.form-group {
+    width: 300px;
+    margin: auto;
+    color: white;
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 0px;
+}
+.footer-page {
+    background-color: rgb(52, 58, 64);
+    width: 100%;
+    min-height: 100px;
+}
+
+.footer-tab {
+    margin-top: 30px;
+}
+
+.footer-tab > ul {
+    margin-left: 40px;
+}
+
+.socmed-box {
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+}
+
+.copyright {
+    background-color: rgb(43, 48, 53);
+    min-height: 45px;
+    width: 100%;
+    color: white;
+}
+
+.myname {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    font-size: 10px;
+}
+
+iframe {
+    display: none;
+}
+
+img[alt*="socmed"] {
+margin-right: 20px;
+
+}
+
+
+}*/
+
+
+
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+/*    .contact-page {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+
+/*.contact-page-bgcolor {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 58, 64, 0.9);
+}
+*/
+.left-container {
+    width: 100%;
+    min-height: 60vh;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    float: left;
+    content: "";
+}
+
+.left-container-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.navbar, .navbar-toggler{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+
+.contact-container {
+    /*eight: 62vh;*/
+    position: absolute;
+    left: -95px;
+
+/*    border: 8px solid white;
+    background-color: rgba(52, 58, 64, 0.8);*/
+    /*text-align: left;*/
+}
+
+/*.contact-container form form-group {
+    width: 100px;
+}
+*/
+
+.form-group {
+    width: 300px;
+    color: white;
+/*    margin: auto;*/
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 0px;
+}
+
+.footer-page {
+    background-color: rgb(52, 58, 64);
+    width: 100%;
+    min-height: 100px;
+}
+
+.footer-tab {
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+.footer-tab > ul {
+    margin-left: 40px;
+}
+
+.socmed-box {
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+}
+
+.copyright {
+    background-color: rgb(43, 48, 53);
+    min-height: 45px;
+    width: 100%;
+    color: white;
+}
+
+.myname {
+    position: relative;
+    top: 10px;
+    left: 150px;
+    font-size: 10px;
+}
+
+iframe {
+    display: none;
+}
+
+img[alt*="socmed"] {
+margin-right: 32px;
+
+}
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
